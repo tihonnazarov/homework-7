@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-    background-image: url("./images/d4x.png");
-    background-repeat: no-repeat;
-    background-color: #383838;
+    background-color: #414141;
+
 }
