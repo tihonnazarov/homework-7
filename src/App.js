@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-      <div className="App m-auto w-80 h-auto mt-10 p-10 bg-black bg-opacity-30 rounded-md">
+      <div className="App m-auto w-1/4 h-auto mt-10 p-10 bg-black bg-opacity-30 rounded-md">
         <h1 className="gap-10 bg-gray-700 rounded-2xl flex justify-center p-4 border-2 border-black">Список задач <svg
             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             className="w-6 h-6">
@@ -56,7 +56,7 @@ function App() {
                   key={index}
                   style={{ textDecoration: task.completed ? 'line-through' : 'none' }}
               >
-            <span className="hover:bg-gray-600 bg-gray-700 p-2 rounded-2xl border-2 border-black inline-flex gap-5" onClick={() => toggleTaskCompletion(index)}>
+            <span className="hover:bg-gray-600 bg-gray-700 p-2 rounded-2xl border-2 border-black inline-flex gap-5 whitespace-nowrap" onClick={() => toggleTaskCompletion(index)}>
               {task.text}
               <svg
                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
