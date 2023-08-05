@@ -51,7 +51,7 @@ function App() {
             </svg>
           </button>
         </div>
-        <ul className="flex justify-between flex-col gap-10" >
+        <ul className="flex justify-between flex-col gap-2" >
           {tasks.map((task, index) => (
               <li className="flex gap-10 mt-10"
                   key={index}
